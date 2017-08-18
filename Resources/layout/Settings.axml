@@ -3,8 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/linearLayout1"
-    android:padding="20px">
+    android:id="@+id/settingsLayout"
+    android:padding="45px">
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -59,9 +59,6 @@ namespace QuietPlease
 			// aapt resource value: 0x7f050004
 			public const int chargingVibrateRadioButton = 2131034116;
 			
-			// aapt resource value: 0x7f050000
-			public const int linearLayout1 = 2131034112;
-			
 			// aapt resource value: 0x7f050007
 			public const int notChargingActionLabel = 2131034119;
 			
@@ -76,6 +73,9 @@ namespace QuietPlease
 			
 			// aapt resource value: 0x7f05000a
 			public const int notChargingVibrateRadioButton = 2131034122;
+			
+			// aapt resource value: 0x7f050000
+			public const int settingsLayout = 2131034112;
 			
 			// aapt resource value: 0x7f05000d
 			public const int showNotificationsCheckBox = 2131034125;
