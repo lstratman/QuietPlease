@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Quiet Please!</string>
+  <string name="power_connected_notification">Power connected, changed to {0}</string>
+  <string name="power_disconnected_notification">Power disconnected, changed to {0}</string>
+  <string name="ring">Ring</string>
+  <string name="silent">Silent</string>
+  <string name="vibrate">Vibrate</string>
+  <string name="power_connected_action_text">Ring action when power is connected:</string>
+  <string name="power_disconnected_action_text">Ring action when power is not connected:</string>
+  <string name="state_change_notifications_text">Show notifications on state change</string>
+</resources>
