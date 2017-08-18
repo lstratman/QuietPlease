@@ -52,6 +52,16 @@ namespace QuietPlease
             FindViewById<RadioGroup>(Resource.Id.chargingRadioGroup).CheckedChange += Charging_CheckedChange;
             FindViewById<RadioGroup>(Resource.Id.notChargingRadioGroup).CheckedChange += NotCharging_CheckedChange;
             FindViewById<CheckBox>(Resource.Id.showNotificationsCheckBox).CheckedChange += ShowNotifications_CheckedChange;
+
+            if (IsPowerConnected)
+            {
+                PowerConnectedReceiver.Synchronize(Application.Context);
+            }
+
+            else
+            {
+                PowerDisconnectedReceiver.Synchronize(Application.Context);
+            }
         }
 
         private void ShowNotifications_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e)

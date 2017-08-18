@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">Quiet Please!</string>
-  <string name="power_connected_notification">Power connected, changed to {0}</string>
-  <string name="power_disconnected_notification">Power disconnected, changed to {0}</string>
+  <string name="power_connected_notification">Ringer set to {0}</string>
+  <string name="power_disconnected_notification">Ringer set to {0}</string>
   <string name="ring">Ring</string>
   <string name="silent">Silent</string>
   <string name="vibrate">Vibrate</string>
